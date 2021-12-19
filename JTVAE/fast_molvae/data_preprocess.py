@@ -27,6 +27,8 @@ def tensorize(smiles, assm=True):
     return mol_tree
 
 if __name__ == "__main__":
+    sys.setrecursionlimit(10000)
+
     lg = rdkit.RDLogger.logger() 
     lg.setLevel(rdkit.RDLogger.CRITICAL)
     
