@@ -1,5 +1,5 @@
 export DIR="$(dirname "$(pwd)")"
-conda env update --file ${DIR}'/uncertainty_guided_env.yml'
+#conda env update --file ${DIR}'/uncertainty_guided_env.yml'
 source activate uncertainty_guided_env
 export PYTHONPATH=${PYTHONPATH}:${DIR}
 
