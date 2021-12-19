@@ -72,7 +72,7 @@ if __name__ == '__main__':
     dataset = PropDataset(args.train_path, args.prop_path)
     dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=True, num_workers=4, pin_memory=True, collate_fn=lambda x:x, drop_last=True)
 
-    MAX_EPOCH = 17
+    MAX_EPOCH = 12
     PRINT_ITER = 50
 
     for epoch in tqdm.tqdm(range(MAX_EPOCH)):

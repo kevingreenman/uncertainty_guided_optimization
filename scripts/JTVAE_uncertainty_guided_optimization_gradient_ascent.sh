@@ -5,8 +5,8 @@ export PYTHONPATH=${PYTHONPATH}:${DIR}
 
 export experiment_name="20210101"
 export model_type='JTVAE'
-export model_checkpoint=${DIR}'/JTVAE/checkpoints/jtvae_drop_MLP0.2_GRU0.2_Prop0.2_zdim56_hidden450_prop-logP/model.final'
-export vocab_path=${DIR}'/JTVAE/data/zinc/new_vocab.txt'
+export model_checkpoint=${DIR}'/JTVAE/checkpoints/jtvae_drop_MLP0.2_GRU0.2_Prop0.2_zdim56_hidden450_prop-uvvis_abs_peak/model.final'
+export vocab_path=${DIR}'/JTVAE/data/uvvis/new_vocab.txt'
 export mode_generation_starting_point="random"  #[random|low_property_objects]
 
 export batch_size=100
